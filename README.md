@@ -4,7 +4,7 @@
 
 Este documento se basará en la documentación proporcionada en la guía oficial de Lacchain, disponible en [https://lacnet.lacchain.net/documentation/](https://lacnet.lacchain.net/documentation/ "https://lacnet.lacchain.net/documentation/").
 
- - [Instalar un nodo de la red de Lacchain](#instalar-un-nodo-de-la-red-de-lacchain)
+- [Instalar un nodo de la red de Lacchain](#instalar-un-nodo-de-la-red-de-lacchain)
   - [Requisitos previos](#requisitos-previos)
   - [Pasos de instalación](#pasos-de-instalación)
     - [Paso 1: Configuración del entorno](#paso-1-configuración-del-entorno)
@@ -12,7 +12,7 @@ Este documento se basará en la documentación proporcionada en la guía oficial
     - [Paso 3: Desplegar nuevo nodo](#paso-3-desplegar-nuevo-nodo)
     - [Paso 4: Configuración del nuevo nodo](#paso-4-configuración-del-nuevo-nodo)
 
- - [Instalar nodo IPFS (InterPlanetary File System)](#instalar-nodo-ipfs-interplanetary-file-system)
+- [Instalar nodo IPFS (InterPlanetary File System)](#instalar-nodo-ipfs-interplanetary-file-system)
   - [Requisitos mínimos del sistema](#requisitos-mínimos-del-sistema)
   - [Instalación](#instalación)
     - [Paso 1: Configuración del repositorio](#paso-1-configuración-del-repositorio)
@@ -20,7 +20,7 @@ Este documento se basará en la documentación proporcionada en la guía oficial
     - [Paso 3: Verificar conexión](#paso-3-verificar-conexión)
   - [Enviar documento a IPFS](#enviar-documento-a-ipfs)
 
-## Instalar un nodo de la red de Lacchain
+# Instalar un nodo de la red de Lacchain
 
 La siguiente investigación tiene como objetivo proporcionar una guía paso a paso para instalar un nodo de la red de Lacchain utilizando Kubernetes.
 
@@ -176,7 +176,7 @@ Si alguna de estas dos comprobaciones no funciona, intente reiniciar el servicio
 
 
 
-## Instalar nodo IPFS (InterPlanetary File System)
+# Instalar nodo IPFS (InterPlanetary File System)
 
 A continuación encontrará instrucciones para el despliegue de nodos ipfs en Kubernetes utilizando Helm. Esto implica que se ejecutará desde una máquina local en un servidor remoto. La máquina local y el servidor remoto se comunicarán a través de Helm. La instalación con manifiestos kubernetes es compatible con Google Kubernetes Engine .
 
